@@ -1,11 +1,9 @@
-import React from "react";
 import img1 from "../assets/img/menu1.jpg";
 import img2 from "../assets/img/menu2.jpg";
 import img3 from "../assets/img/menu3.jpg";
 import img4 from "../assets/img/menu4.jpg";
 import img5 from "../assets/img/menu5.jpg";
-import img6 from "../assets/img/menu6.jpg";
-import MenuCard from "../layouts/MenuCard";
+import MenuCard from "../components/MenuCard";
 
 const Menu = () => {
   return (
@@ -20,7 +18,7 @@ const Menu = () => {
         <MenuCard img={img3} title="Latte" />
         <MenuCard img={img4} title="Americano" />
         <MenuCard img={img5} title="Macchiato" />
-        <MenuCard img={img6} title="Doppio" />
+        <MenuCard img={img5} title="Doppio" />
       </div>
     </div>
   );

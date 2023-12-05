@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../layouts/Button";
+import Button from "./Button";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
 
-const ProductCard = (props) => {
+const ProductCard = (props: any) => {
   return (
     <div className=" w-full lg:w-1/4 bg-white p-3 rounded-lg">
       <img className=" rounded-lg" src={props.img} alt="img" />

@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import { SiCoffeescript } from "react-icons/si";
-import Button from "../layouts/Button";
-import { AiOutlineMenuUnfold } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
+import Button from "../components/Button";
+import { AiOutlineMenuUnfold, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
